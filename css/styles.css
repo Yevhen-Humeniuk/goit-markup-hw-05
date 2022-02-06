@@ -259,9 +259,6 @@ body {
   width: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
-.advantages-icon {
-  margin: 25px 100px 25px 100px;
-}
 .advantages-item + .advantages-item {
   margin-left: 30px;
 }
@@ -335,9 +332,8 @@ body {
 .our-team-list {
   display: flex;
 }
-.our-team-item:not(:first-child) {
-  width: calc(100% / 4 - 30px);
-  margin-left: 30px;
+.our-team-item + .our-team-item {
+  margin-right: 30px;
 }
 .our-team-item {
   background: var(--hero-text-color);
@@ -632,6 +628,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .title-container {
+  padding: 20px 24px 20px 24px;
   border-right: 1px solid var(--border-cards-color);
   border-bottom: 1px solid var(--border-cards-color);
   border-left: 1px solid var(--border-cards-color);
