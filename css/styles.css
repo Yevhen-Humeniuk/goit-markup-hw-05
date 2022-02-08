@@ -691,6 +691,7 @@ body {
 .modal-btn {
   position: absolute;
   top: 8px;
+  cursor: pointer;
   right: 8px;
   display: flex;
   padding: 0;
